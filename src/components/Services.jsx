@@ -3,6 +3,14 @@
 import { useState, useEffect, useRef } from "react";
 
 const services = [
+    // Row 1: 1 + 1 + 1 = 3
+    {
+        icon: "🌱",
+        title: "Acquisition Sans Publicité",
+        description: "Stratégies organiques (LinkedIn, contenu, partenariats, referrals) qui génèrent des clients sans dépenser un centime en pub.",
+        badge: "0€ de pub requis",
+        span: "",
+    },
     {
         icon: "🎯",
         title: "Publicité Ciblée & Éthique",
@@ -10,40 +18,35 @@ const services = [
         span: "",
     },
     {
-        icon: "🌱",
-        title: "Acquisition Sans Publicité",
-        description: "Pas de budget pub ? Pas de problème. On met en place des stratégies organiques (LinkedIn, contenu, partenariats, referrals) qui génèrent des clients sans dépenser un centime en publicité.",
-        badge: "0€ de pub requis",
-        span: "md:col-span-2",
-    },
-    {
         icon: "🖥️",
         title: "Landing Pages Premium",
         description: "Des pages de vente à fort taux de conversion, designées pour inspirer confiance et pousser à l'action.",
         span: "",
     },
+    // Row 2: 2 + 1 = 3
     {
         icon: "🎬",
         title: "VSL & Contenu Vidéo",
         description: "Scripts, production et montage de vidéos de vente qui éduquent ton audience et élèvent leur niveau de conscience avant l'appel.",
-        span: "",
-    },
-    {
-        icon: "📧",
-        title: "Séquences Email & Nurturing",
-        description: "Des séquences automatisées qui maintiennent le lien et convertissent les prospects froids en clients convaincus, naturellement.",
         span: "md:col-span-2",
     },
     {
         icon: "⚙️",
         title: "Automatisation CRM",
-        description: "On met en place ton CRM, tes pipelines et tes automatisations pour que chaque lead soit suivi sans effort de ta part.",
+        description: "On met en place ton CRM, tes pipelines et tes automatisations pour que chaque lead soit suivi sans effort.",
+        span: "",
+    },
+    // Row 3: 1 + 2 = 3
+    {
+        icon: "📧",
+        title: "Séquences Email & Nurturing",
+        description: "Séquences automatisées qui convertissent les prospects froids en clients convaincus, naturellement.",
         span: "",
     },
     {
         icon: "📞",
         title: "Stratégie Commerciale & Closing",
-        description: "Closing, scripts d'appel, structuration de l'offre. On t'accompagne sur tout le parcours commercial, de la prospection à la signature.",
+        description: "Closing, scripts d'appel, structuration de l'offre. On t'accompagne de la prospection à la signature.",
         badge: "100K+ CA généré",
         span: "md:col-span-2",
     },
