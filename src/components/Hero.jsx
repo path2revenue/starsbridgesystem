@@ -41,7 +41,7 @@ const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour,
 export default function Hero() {
 
     return (
-        <section className="relative flex flex-col items-center justify-center overflow-hidden pt-24 pb-10">
+        <section className="relative flex flex-col items-center justify-center overflow-hidden pt-10 pb-10">
             {/* Animated Mesh Background */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute top-[-50%] left-[-50%] w-[200%] h-[200%] animate-[meshMove_20s_ease-in-out_infinite]">
