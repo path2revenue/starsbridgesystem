@@ -89,11 +89,11 @@ export default function Calendar() {
                     </div>
 
                     {/* Right - GHL Calendar Embed */}
-                    <div className="bg-[#111827] border border-[#1E293B] rounded-2xl p-2 min-h-[600px] overflow-hidden">
+                    <div style={{ backgroundColor: '#111827', border: '1px solid #1E293B', borderRadius: 16, padding: 8, minHeight: 750, overflow: 'visible' }}>
                         <iframe
                             src="https://api.leadconnectorhq.com/widget/booking/JcQPg6HogFwOXOlJKoP6"
-                            style={{ width: "100%", height: "100%", minHeight: "580px", border: "none" }}
-                            scrolling="no"
+                            style={{ width: '100%', height: 700, minHeight: 700, border: 'none', borderRadius: 12 }}
+                            scrolling="yes"
                             id="JcQPg6HogFwOXOlJKoP6_1770692314490"
                             title="Réserver un appel - StarsBridgeSystem"
                         />
