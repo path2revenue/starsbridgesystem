@@ -14,7 +14,7 @@ const testimonials = [
     {
         stars: 5,
         quote:
-            "Ahmed et moi avons collaboré pour un client en commun et nous avons eu des résultats incroyables. Ahmed a toujours fait preuve de professionnalisme, de rapidité et d'efficacité, ce qui nous a valu de dépasser les 100K de chiffre d'affaires pour notre client commun en quelques mois.",
+            "Ahmed et moi avons collaboré pour un client en commun et nous avons eu des résultats incroyables. Ahmed a toujours fait preuve de professionnalisme, de rapidité et d'efficacité, ce qui nous a valu de dépasser les 800K de chiffre d'affaires pour nos clients en quelques mois.",
         name: "Bryan Wallace",
         role: "Fondateur, Agence Take Care",
         color: "linear-gradient(135deg,#EAB308,#F59E0B)",

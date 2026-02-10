@@ -83,8 +83,8 @@ export default function Process() {
                                 style={{ transitionDelay: `${i * 200}ms` }}
                             >
                                 {/* Number circle */}
-                                <div className="relative z-10 w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#111827] border-2 border-[#3B82F6]/40 flex items-center justify-center shrink-0">
-                                    <span className="text-sm md:text-base font-bold text-[#60A5FA]">{step.number}</span>
+                                <div className="relative z-10 w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#3B82F6] flex items-center justify-center shrink-0">
+                                    <span className="text-sm md:text-base font-bold text-white">{step.number}</span>
                                 </div>
 
                                 {/* Content */}

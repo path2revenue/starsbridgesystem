@@ -47,7 +47,7 @@ const services = [
         icon: "📞",
         title: "Stratégie Commerciale & Closing",
         description: "Closing, scripts d'appel, structuration de l'offre. On t'accompagne de la prospection à la signature.",
-        badge: "100K+ CA généré",
+        badge: "800K+ CA généré",
         span: "md:col-span-2",
     },
 ];

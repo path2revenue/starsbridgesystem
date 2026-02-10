@@ -73,7 +73,7 @@ export default function FAQ() {
                         >
                             <button
                                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                                className="w-full px-6 py-5 flex items-center justify-between text-left"
+                                className="w-full px-6 py-5 flex items-center justify-between text-left cursor-pointer"
                             >
                                 <span className="font-semibold text-[#F1F5F9] text-sm md:text-base pr-4">{faq.q}</span>
                                 <span

@@ -40,9 +40,9 @@ export default function Navbar() {
     return (
         <>
             <nav
-                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-                        ? "bg-[#0C111D]/90 backdrop-blur-xl border-b border-[#1E293B] py-3"
-                        : "py-4"
+                className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
+                    ? "bg-[#0C111D]/90 backdrop-blur-xl border-b border-[#1E293B] py-3"
+                    : "bg-[#0C111D] py-4"
                     }`}
             >
                 <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
@@ -66,7 +66,7 @@ export default function Navbar() {
                         <a
                             href="#rdv"
                             onClick={(e) => handleLinkClick(e, "#rdv")}
-                            className="ml-4 px-5 py-2 bg-[#EAB308] text-[#0C111D] text-sm font-semibold rounded-lg hover:bg-[#FACC15] hover:-translate-y-0.5 transition-all duration-200 shadow-[0_0_0_0_rgba(234,179,8,0.3)] hover:shadow-[0_4px_20px_rgba(234,179,8,0.3)]"
+                            className="ml-4 px-5 py-2 bg-[#EAB308] text-[#0C111D] text-sm font-semibold rounded-full hover:bg-[#FACC15] transition-all duration-300 cursor-pointer"
                         >
                             Réserver un Appel
                         </a>
@@ -112,7 +112,7 @@ export default function Navbar() {
                 <a
                     href="#rdv"
                     onClick={(e) => handleLinkClick(e, "#rdv")}
-                    className="mt-4 px-8 py-3 bg-[#EAB308] text-[#0C111D] font-bold rounded-xl text-lg hover:bg-[#FACC15] transition-all"
+                    className="mt-4 px-8 py-3 bg-[#EAB308] text-[#0C111D] font-bold rounded-full text-lg hover:bg-[#FACC15] transition-all cursor-pointer"
                 >
                     Réserver un Appel
                 </a>

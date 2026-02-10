@@ -33,6 +33,40 @@ function AnimatedCounter({ target, suffix = "", duration = 2000 }) {
 
 const caseStudies = [
     {
+        name: "MentorClass Corporation",
+        domain: "Formation & Mentorat",
+        quote: "De 0 à plus de 100K€ de revenus mensuels grâce au système d'acquisition StarsBridgeSystem. Une transformation complète du business model.",
+        metrics: [
+            { value: 100, suffix: "K+/mois", label: "Revenus mensuels" },
+        ],
+    },
+    {
+        name: "Mohammed Boclet",
+        domain: "Coaching & Consulting",
+        quote: "24 appels qualifiés générés pour un chiffre d'affaires de 30K€. Un système de prospection qui convertit avec précision.",
+        metrics: [
+            { value: 24, suffix: "", label: "Appels qualifiés" },
+            { value: 30, suffix: "K€", label: "CA généré" },
+        ],
+    },
+    {
+        name: "Frank Nicolas",
+        domain: "Consulting haut de gamme",
+        quote: "7 appels générés pour 20K€ encaissés. Un système d'acquisition ultra-qualitatif orienté résultats premium.",
+        metrics: [
+            { value: 7, suffix: "", label: "Appels générés" },
+            { value: 20, suffix: "K€", label: "Encaissés" },
+        ],
+    },
+    {
+        name: "Yomi Denzel",
+        domain: "Infopreneuriat & E-commerce",
+        quote: "100K€ contractés grâce à une stratégie d'acquisition et de closing structurée par StarsBridgeSystem.",
+        metrics: [
+            { value: 100, suffix: "K€", label: "Contractés" },
+        ],
+    },
+    {
         name: "Immo Éthique Formation",
         domain: "Formation immobilière",
         quote: "8.6K encaissés, 90 présents, +30 RDVs qualifiés en un seul webinaire grâce au système StarsBridgeSystem.",
@@ -43,15 +77,6 @@ const caseStudies = [
         ],
     },
     {
-        name: "MVDProduction",
-        domain: "Vidéaste professionnel",
-        quote: "De petits contrats locaux à plus de 15K de revenus générés grâce à un système d'acquisition complet.",
-        metrics: [
-            { value: 15, suffix: "K+", label: "Revenus générés" },
-            { value: 5, suffix: "x", label: "Croissance" },
-        ],
-    },
-    {
         name: "Agence Événementielle",
         domain: "Organisation d'événements",
         quote: "188€ investis en publicité, 1200€ de CA encaissés. Création complète du système marketing et commercial.",
@@ -59,14 +84,6 @@ const caseStudies = [
             { value: 188, suffix: "€", label: "Investis en pub" },
             { value: 1200, suffix: "€", label: "CA généré" },
             { value: 538, suffix: "%", label: "ROI" },
-        ],
-    },
-    {
-        name: "Programme de Mentorat",
-        domain: "Coaching & Mentorat haut de gamme",
-        quote: "Accompagnement marketing et commercial ayant contribué à dépasser les 100K de chiffre d'affaires.",
-        metrics: [
-            { value: 100, suffix: "K+", label: "Chiffre d'affaires" },
         ],
     },
 ];
@@ -115,8 +132,8 @@ export default function Results() {
                             key={i}
                             ref={(el) => (refs.current[i] = el)}
                             className={`bg-[#111827] border border-[#1E293B] rounded-2xl p-8 hover:border-[#3B82F6]/30 transition-all duration-500 ${visibleCards.includes(i)
-                                    ? "opacity-100 translate-y-0"
-                                    : "opacity-0 translate-y-8"
+                                ? "opacity-100 translate-y-0"
+                                : "opacity-0 translate-y-8"
                                 }`}
                             style={{ transitionDelay: `${i * 150}ms` }}
                         >
