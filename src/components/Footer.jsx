@@ -5,8 +5,9 @@ export default function Footer() {
         <footer className="border-t border-[#1E293B] py-10 px-6 bg-[#0C111D]">
             <div className="max-w-[1200px] mx-auto">
                 <div className="flex items-center justify-between flex-wrap gap-6">
-                    <div>
+                    <div className="flex items-center gap-2">
                         <img src="/starsbridgesystem.png" alt="StarsBridgesSystem" className="h-7 w-auto" />
+                        <span className="text-lg font-bold">Stars<span className="text-[#3B82F6]">Bridges</span>System</span>
                     </div>
 
                     <div className="flex gap-6">

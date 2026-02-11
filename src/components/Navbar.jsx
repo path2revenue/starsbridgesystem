@@ -48,6 +48,7 @@ export default function Navbar() {
                 <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
                     <a href="#" className="flex items-center gap-2">
                         <img src="/starsbridgesystem.png" alt="StarsBridgesSystem" className="h-8 w-auto" />
+                        <span className="text-xl font-bold tracking-tight">Stars<span className="text-[#3B82F6]">Bridges</span>System</span>
                     </a>
 
                     {/* Desktop Links */}
