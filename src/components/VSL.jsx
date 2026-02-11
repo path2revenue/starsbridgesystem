@@ -77,7 +77,7 @@ export default function VSL() {
 
                                 {/* Label */}
                                 <div className="absolute top-4 left-4 px-3 py-1 bg-[#6366F1]/20 border border-[#6366F1]/40 rounded-lg text-xs text-[#818CF8] font-semibold">
-                                    🎥 VSL StarsBridgeSystem
+                                    🎥 VSL StarsBridgesSystem
                                 </div>
                             </>
                         ) : (
@@ -92,7 +92,7 @@ export default function VSL() {
                                 className="absolute inset-0 w-full h-full"
                                 allow="autoplay; fullscreen; picture-in-picture"
                                 allowFullScreen
-                                title="Présentation StarsBridgeSystem"
+                                title="Présentation StarsBridgesSystem"
                             />
                         )}
                     </div>

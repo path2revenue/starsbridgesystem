@@ -1,4 +1,4 @@
-const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je découvre StarsBridgeSystem et j'ai une question.");
+const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je découvre StarsBridgesSystem et j'ai une question.");
 
 export default function Footer() {
     return (
@@ -35,7 +35,7 @@ export default function Footer() {
                 </div>
 
                 <div className="text-center text-xs text-[#64748B] mt-6 pt-6 border-t border-[#1E293B]">
-                    © {new Date().getFullYear()} StarsBridgeSystem. Tous droits réservés.
+                    © {new Date().getFullYear()} StarsBridgesSystem. Tous droits réservés.
                 </div>
             </div>
         </footer>

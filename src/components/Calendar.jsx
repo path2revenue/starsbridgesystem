@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 
-const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je viens du site StarsBridgeSystem et j'aimerais réserver un appel pour discuter de mon projet.");
+const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je viens du site StarsBridgesSystem et j'aimerais réserver un appel pour discuter de mon projet.");
 
 export default function Calendar() {
     const [visible, setVisible] = useState(false);
@@ -95,7 +95,7 @@ export default function Calendar() {
                             style={{ width: '100%', height: 700, minHeight: 700, border: 'none', borderRadius: 12 }}
                             scrolling="yes"
                             id="JcQPg6HogFwOXOlJKoP6_1770692314490"
-                            title="Réserver un appel - StarsBridgeSystem"
+                            title="Réserver un appel - StarsBridgesSystem"
                         />
                     </div>
                 </div>

@@ -7,7 +7,7 @@ export default function MentionsLegales() {
             <nav className="sticky top-0 z-50 border-b border-gray-800 bg-gray-950/90 backdrop-blur-md">
                 <div className="max-w-[1100px] mx-auto px-6 h-14 flex items-center justify-between">
                     <a href="/" className="text-lg font-bold text-white">
-                        StarsBridgeSystem
+                        StarsBridgesSystem
                     </a>
                     <a
                         href="/"

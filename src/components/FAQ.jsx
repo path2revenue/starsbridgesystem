@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 
 const faqs = [
     {
-        q: "Combien coûte un accompagnement StarsBridgeSystem ?",
+        q: "Combien coûte un accompagnement StarsBridgesSystem ?",
         a: "Nos tarifs varient selon la complexité du projet et les services nécessaires. On commence toujours par un appel gratuit de diagnostic pour comprendre ta situation. Ensuite, on te propose un devis transparent, sans frais cachés. On travaille en mode partenariat : notre intérêt, c'est que tu réussisses.",
     },
     {

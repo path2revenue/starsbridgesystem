@@ -155,7 +155,7 @@ export default function MerciPage() {
                         </div>
 
                         <h2 style={{ fontSize: "clamp(20px, 3vw, 26px)", fontWeight: 700, color: "#F1F5F9", marginBottom: 12 }}>
-                            Rejoins le Réseau d&apos;Affaires StarsBridgeSystem
+                            Rejoins le Réseau d&apos;Affaires StarsBridgesSystem
                         </h2>
                         <p style={{ fontSize: 15, color: "#94A3B8", lineHeight: 1.6, marginBottom: 28, maxWidth: 450, margin: "0 auto 28px" }}>
                             Un groupe privé WhatsApp pour entrepreneurs ambitieux. Partage d&apos;opportunités, conseils stratégiques et networking de qualité.

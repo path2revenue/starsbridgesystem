@@ -1,6 +1,6 @@
 "use client";
 
-const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je viens du site StarsBridgeSystem. J'aimerais passer à l'action et discuter de mon projet.");
+const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je viens du site StarsBridgesSystem. J'aimerais passer à l'action et discuter de mon projet.");
 
 export default function FinalCTA() {
     return (

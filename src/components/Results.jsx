@@ -35,7 +35,7 @@ const caseStudies = [
     {
         name: "MentorClass Corporation",
         domain: "Formation & Mentorat",
-        quote: "De 0 à plus de 100K€ de revenus mensuels grâce au système d'acquisition StarsBridgeSystem. Une transformation complète du business model.",
+        quote: "De 0 à plus de 100K€ de revenus mensuels grâce au système d'acquisition StarsBridgesSystem. Une transformation complète du business model.",
         metrics: [
             { value: 100, suffix: "K+/mois", label: "Revenus mensuels" },
         ],
@@ -43,6 +43,7 @@ const caseStudies = [
     {
         name: "Mohammed Boclet",
         domain: "Coaching & Consulting",
+        image: "/mohamed_boclet.jpg",
         quote: "24 appels qualifiés générés pour un chiffre d'affaires de 30K€. Un système de prospection qui convertit avec précision.",
         metrics: [
             { value: 24, suffix: "", label: "Appels qualifiés" },
@@ -50,8 +51,9 @@ const caseStudies = [
         ],
     },
     {
-        name: "Frank Nicolas",
+        name: "Franck Nicolas",
         domain: "Consulting haut de gamme",
+        image: "/franck_nicolas.jpg",
         quote: "7 appels générés pour 20K€ encaissés. Un système d'acquisition ultra-qualitatif orienté résultats premium.",
         metrics: [
             { value: 7, suffix: "", label: "Appels générés" },
@@ -61,7 +63,8 @@ const caseStudies = [
     {
         name: "Yomi Denzel",
         domain: "Infopreneuriat & E-commerce",
-        quote: "100K€ contractés grâce à une stratégie d'acquisition et de closing structurée par StarsBridgeSystem.",
+        image: "/yomi.jpg",
+        quote: "100K€ contractés grâce à une stratégie d'acquisition et de closing structurée par StarsBridgesSystem.",
         metrics: [
             { value: 100, suffix: "K€", label: "Contractés" },
         ],
@@ -69,7 +72,8 @@ const caseStudies = [
     {
         name: "Immo Éthique Formation",
         domain: "Formation immobilière",
-        quote: "8.6K encaissés, 90 présents, +30 RDVs qualifiés en un seul webinaire grâce au système StarsBridgeSystem.",
+        image: "/immo_ethique.jpg",
+        quote: "8.6K encaissés, 90 présents, +30 RDVs qualifiés en un seul webinaire grâce au système StarsBridgesSystem.",
         metrics: [
             { value: 8600, suffix: "€", label: "Encaissés" },
             { value: 90, suffix: "", label: "Présents live" },
@@ -138,9 +142,18 @@ export default function Results() {
                             style={{ transitionDelay: `${i * 150}ms` }}
                         >
                             <div className="flex items-center justify-between mb-6">
-                                <div>
-                                    <h3 className="font-bold text-[#F1F5F9] text-lg">{cs.name}</h3>
-                                    <p className="text-xs text-[#3B82F6]">{cs.domain}</p>
+                                <div className="flex items-center gap-3">
+                                    {cs.image && (
+                                        <img
+                                            src={cs.image}
+                                            alt={cs.name}
+                                            className="w-12 h-12 rounded-full object-cover border-2 border-[#3B82F6]/30"
+                                        />
+                                    )}
+                                    <div>
+                                        <h3 className="font-bold text-[#F1F5F9] text-lg">{cs.name}</h3>
+                                        <p className="text-xs text-[#3B82F6]">{cs.domain}</p>
+                                    </div>
                                 </div>
                                 <div className="text-[#EAB308] text-sm">★★★★★</div>
                             </div>

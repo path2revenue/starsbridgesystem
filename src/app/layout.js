@@ -1,12 +1,12 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "StarsBridgeSystem | Systèmes d'Acquisition Éthiques pour Entrepreneurs",
+  title: "StarsBridgesSystem | Systèmes d'Acquisition Éthiques pour Entrepreneurs",
   description:
     "On crée des systèmes d'acquisition clients éthiques et prédictibles pour entrepreneurs musulmans. Publicité, funnels, VSL, landing pages. Un seul système pour une croissance stable.",
   keywords: "marketing éthique, acquisition clients, funnel, publicité, entrepreneur musulman, landing page, VSL",
   openGraph: {
-    title: "StarsBridgeSystem | Marketing Éthique & Acquisition Client",
+    title: "StarsBridgesSystem | Marketing Éthique & Acquisition Client",
     description: "Systèmes d'acquisition prédictibles pour entrepreneurs éthiques.",
     type: "website",
   },

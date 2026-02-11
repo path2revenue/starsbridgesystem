@@ -36,7 +36,7 @@ function AnimatedCounter({ target, suffix = "", duration = 2000 }) {
     );
 }
 
-const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je viens du site StarsBridgeSystem et j'aimerais en savoir plus sur vos services d'acquisition client.");
+const WA_LINK = "https://wa.me/33761941267?text=" + encodeURIComponent("Bonjour, je viens du site StarsBridgesSystem et j'aimerais en savoir plus sur vos services d'acquisition client.");
 
 export default function Hero() {
 
@@ -82,7 +82,7 @@ export default function Hero() {
                             style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
                             allow="fullscreen; picture-in-picture; accelerometer; encrypted-media; gyroscope"
                             allowFullScreen
-                            title="Présentation StarsBridgeSystem"
+                            title="Présentation StarsBridgesSystem"
                         />
                     </div>
                 </div>
