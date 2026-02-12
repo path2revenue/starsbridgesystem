@@ -83,12 +83,12 @@ export default function Testimonials() {
                     </h2>
                 </div>
 
-                {/* Carousel wrapper with external arrows */}
-                <div className="flex items-center gap-3 md:gap-5">
-                    {/* Left arrow - OUTSIDE card */}
+                {/* Carousel wrapper — arrows below on mobile, beside card on desktop */}
+                <div className="flex flex-col md:flex-row md:items-center md:gap-5">
+                    {/* Left arrow — hidden on mobile, visible on md+ */}
                     <button
                         onClick={prev}
-                        className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#1A2035] border border-[#1E293B] flex items-center justify-center text-[#94A3B8] hover:text-white hover:border-[#3B82F6] transition-all shrink-0"
+                        className="hidden md:flex w-12 h-12 rounded-full bg-[#1A2035] border border-[#1E293B] items-center justify-center text-[#94A3B8] hover:text-white hover:border-[#3B82F6] transition-all shrink-0"
                         aria-label="Précédent"
                     >
                         ‹
@@ -133,10 +133,28 @@ export default function Testimonials() {
                         </div>
                     </div>
 
-                    {/* Right arrow - OUTSIDE card */}
+                    {/* Right arrow — hidden on mobile, visible on md+ */}
                     <button
                         onClick={next}
-                        className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#1A2035] border border-[#1E293B] flex items-center justify-center text-[#94A3B8] hover:text-white hover:border-[#3B82F6] transition-all shrink-0"
+                        className="hidden md:flex w-12 h-12 rounded-full bg-[#1A2035] border border-[#1E293B] items-center justify-center text-[#94A3B8] hover:text-white hover:border-[#3B82F6] transition-all shrink-0"
+                        aria-label="Suivant"
+                    >
+                        ›
+                    </button>
+                </div>
+
+                {/* Mobile arrows — below the card, visible only on mobile */}
+                <div className="flex md:hidden justify-center gap-4 mt-4">
+                    <button
+                        onClick={prev}
+                        className="w-10 h-10 rounded-full bg-[#1A2035] border border-[#1E293B] flex items-center justify-center text-[#94A3B8] hover:text-white hover:border-[#3B82F6] transition-all"
+                        aria-label="Précédent"
+                    >
+                        ‹
+                    </button>
+                    <button
+                        onClick={next}
+                        className="w-10 h-10 rounded-full bg-[#1A2035] border border-[#1E293B] flex items-center justify-center text-[#94A3B8] hover:text-white hover:border-[#3B82F6] transition-all"
                         aria-label="Suivant"
                     >
                         ›
