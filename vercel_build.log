@@ -1,0 +1,83 @@
+﻿node.exe : Vercel 
+CLI 50.14.0
+Au caractère Ligne:1 
+: 1
++ & "C:\Program Files
+\nodejs/node.exe" "C:
+\Users\Bilal\AppData\
+Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Vercel    
+ CLI 50.14.0:Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+WARN! Build not 
+running on Vercel. 
+System environment 
+variables will not 
+be available.
+WARNING: You should 
+not upload the 
+`.next` directory.
+Installing dependencies...
+
+up to date in 830ms
+
+174 packages are looking for funding
+  run `npm fund` for details
+Detected Next.js version: 16.1.6
+Running "npm run build"
+
+> landing-factory@0.1.0 build
+> next build
+
+Ôû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Ô£ô Compiled successfully in 2.3s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/11) ...
+  Generating static pages using 11 workers (2/11) 
+  Generating static pages using 11 workers (5/11) 
+  Generating static pages using 11 workers (8/11) 
+Error occurred 
+prerendering page 
+"/". Read more: https
+://nextjs.org/docs/me
+ssages/prerender-erro
+r
+Error: Objects are 
+not valid as a React 
+child (found: object 
+with keys {text, 
+dot}). If you meant 
+to render a 
+collection of 
+children, use an 
+array instead.
+    at ignore-listed 
+frames {
+  digest: 
+'1216699334'
+}
+Export encountered 
+an error on /page: 
+/, exiting the build.
+Ô¿» Next.js build 
+worker exited with 
+code: 1 and signal: 
+null
+Error: Command "npm 
+run build" exited 
+with 1
