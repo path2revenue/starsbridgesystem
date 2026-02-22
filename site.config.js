@@ -63,7 +63,7 @@ export const siteConfig = {
         highlightedText: "Marketing & Commercial",
         headlineEnd: "Pour Que Tu Signes Plus.",
         subheadline:
-            'Un système complet, construit sur la bonne intention, qui génère des clients de façon prévisible, avec baraka.',
+            "Ton système d'acquisition éthique, construit avec la bonne intention.",
         vslUrl: "https://www.youtube.com/embed/tGQbEge5hCc?rel=0&modestbranding=1",
         vslTitle: "Présentation StarsBridgeSystem",
         ctas: [
