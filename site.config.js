@@ -37,7 +37,7 @@ export const siteConfig = {
 
     /* ─────────────────── GLOBAL LINKS ─────────────────── */
     links: {
-        whatsapp: `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(WA_MESSAGE("StarsBridgeSystem"))}`,
+        whatsapp: "https://chat.whatsapp.com/Dvas6Xq5dqGKxQ6eT6YTRC?mode=gi_t",
         booking: "#rdv",
         bookingEmbed:
             "https://api.leadconnectorhq.com/widget/booking/JcQPg6HogFwOXOlJKoP6",
@@ -74,7 +74,7 @@ export const siteConfig = {
                 arrow: true,
             },
             {
-                text: "Échanger sur WhatsApp",
+                text: "📊 Étude de cas : 0 → +20K en 30 jours",
                 href: "__whatsapp__", // replaced at runtime with links.whatsapp
                 style: "secondary",
                 icon: "whatsapp",
@@ -143,6 +143,12 @@ export const siteConfig = {
         headline: "Ce Qu'on a Fait Pour",
         highlightedText: "D'autres Entrepreneurs",
         items: [
+            {
+                metric: "+96K€",
+                label: "MentorClass",
+                description: "D'offres créées — passé de 0 à +100K€/mois",
+                badge: "Formation",
+            },
             {
                 metric: "8.6K€",
                 label: "Immo Éthique",
@@ -306,8 +312,8 @@ export const siteConfig = {
             "Recommandations concrètes et actionnables",
             "On te dit honnêtement si on peut t'aider ou pas",
         ],
-        whatsappCopy: "Tu préfères discuter directement ?",
-        whatsappLabel: "Échangeons sur WhatsApp →",
+        whatsappCopy: "Tu veux voir comment on fait ?",
+        whatsappLabel: "📊 Voir l'étude de cas (0 → +20K) →",
     },
 
     /* ─────────────────── TESTIMONIALS ─────────────────── */
@@ -409,7 +415,7 @@ export const siteConfig = {
                 arrow: true,
             },
             {
-                text: "WhatsApp",
+                text: "📊 Étude de cas : 0 → +20K en 30j",
                 href: "__whatsapp__",
                 style: "secondary",
                 icon: "whatsapp",

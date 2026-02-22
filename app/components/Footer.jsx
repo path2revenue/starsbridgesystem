@@ -6,7 +6,9 @@ export default function Footer({ config }) {
     const logoSrc = meta?.logo || "/starsbridgesystem.png";
 
     const waLink = links?.whatsapp
-        ? `https://wa.me/${links.whatsapp}?text=${encodeURIComponent("Bonjour, je découvre " + brandTitle + " et j'ai une question.")}`
+        ? links.whatsapp.startsWith("http")
+            ? links.whatsapp
+            : `https://wa.me/${links.whatsapp}?text=${encodeURIComponent("Bonjour, je découvre " + brandTitle + " et j'ai une question.")}`
         : "#";
 
     return (
