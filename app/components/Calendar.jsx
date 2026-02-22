@@ -31,7 +31,7 @@ export default function Calendar({ config }) {
 
     // Build calendar URL with UTM params from cookie
     useEffect(() => {
-        const baseUrl = config?.calendar?.embedUrl || "https://api.leadconnectorhq.com/widget/booking/JcQPg6HogFwOXOlJKoP6";
+        const baseUrl = config?.calendar?.embedUrl || "https://api.leadconnectorhq.com/widget/booking/XG1mYu9n2KDuvgZV2boA";
         setCalendarSrc(appendUTMsToUrl(baseUrl));
     }, [config?.calendar?.embedUrl]);
 

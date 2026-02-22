@@ -40,7 +40,7 @@ export const siteConfig = {
         whatsapp: "https://chat.whatsapp.com/Dvas6Xq5dqGKxQ6eT6YTRC?mode=gi_t",
         booking: "#rdv",
         bookingEmbed:
-            "https://api.leadconnectorhq.com/widget/booking/JcQPg6HogFwOXOlJKoP6",
+            "https://api.leadconnectorhq.com/widget/booking/XG1mYu9n2KDuvgZV2boA",
         bookingEmbedType: "ghl", // ghl | calendly | iframe
     },
 
