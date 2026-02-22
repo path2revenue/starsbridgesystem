@@ -14,11 +14,11 @@ export const siteConfig = {
     meta: {
         title: "StarsBridgeSystem | Systèmes d'Acquisition Éthiques pour Entrepreneurs",
         description:
-            "On crée des systèmes d'acquisition clients éthiques et prédictibles pour entrepreneurs musulmans. Publicité, funnels, VSL, landing pages.",
+            "On crée des systèmes d'acquisition clients fondés sur la bonne intention (niyah) et l'éthique. Résultats prévisibles, conscience tranquille.",
         keywords:
             "marketing éthique, acquisition clients, funnel, publicité, entrepreneur musulman, landing page, VSL",
         ogTitle: "StarsBridgeSystem | Marketing Éthique & Acquisition Client",
-        ogDescription: "Systèmes d'acquisition prédictibles pour entrepreneurs éthiques.",
+        ogDescription: "Systèmes d'acquisition éthiques pour entrepreneurs qui veulent scaler avec baraka.",
         ogImage: null, // URL to OG image (1200x630)
         lang: "fr",
         favicon: "⚡", // Emoji or path to .ico/.png
@@ -63,7 +63,7 @@ export const siteConfig = {
         highlightedText: "Marketing & Commercial",
         headlineEnd: "Pour Que Tu Signes Plus.",
         subheadline:
-            'Un <strong>système complet</strong> qui génère des clients <strong>de façon prévisible</strong>.',
+            'Un <strong>système complet</strong>, construit sur la bonne intention, qui génère des clients <strong>de façon prévisible</strong> — avec baraka.',
         vslUrl: "https://www.youtube.com/embed/tGQbEge5hCc?rel=0&modestbranding=1",
         vslTitle: "Présentation StarsBridgeSystem",
         ctas: [
@@ -111,27 +111,27 @@ export const siteConfig = {
         highlightedText: "Cette Situation",
         highlightColor: "danger", // danger = red accent
         subtitle:
-            "La majorité des entrepreneurs bloquent sur les mêmes obstacles. Et ce n'est pas un manque de compétence. C'est un manque de système.",
+            "Tu as la niyah. La compétence aussi. Ce qui te manque, c'est un système qui transforme cette intention en résultats concrets.",
         items: [
             {
                 icon: "📇",
                 title: "Tu distribues des cartes de visite en espérant un miracle",
                 description:
-                    "Tu comptes sur le bouche-à-oreille, les salons et les recommandations. Certains mois tu signes, d'autres non. Ton CA est imprévisible.",
+                    "Tu comptes sur le bouche-à-oreille et tu espères que la baraka fera le reste. Certains mois tu signes, d'autres non. La niyah est là — mais sans système, le CA reste imprévisible.",
                 stat: "0 système = 0 prédictibilité",
             },
             {
                 icon: "💸",
                 title: "Tu dépenses en pub sans comprendre ce qui fonctionne",
                 description:
-                    "Tu as peut-être essayé Facebook Ads, un site à 30-40€/mois, ou même une agence. Résultat : de l'argent investi sans retour concret.",
+                    "Tu as peut-être essayé Facebook Ads, un site à 30-40€/mois, ou même une agence. Résultat : de l'argent investi sans retour — et l'impression que le marketing éthique ne peut pas fonctionner.",
                 stat: "Budget perdu sans stratégie",
             },
             {
                 icon: "🏋️",
                 title: "Tu te bats seul, sans équipe ni système",
                 description:
-                    "Tu gères tout : la prospection, les appels, le suivi, la livraison. Tu es expert dans ton domaine mais tu n'as ni le temps ni l'expertise pour construire une machine d'acquisition.",
+                    "Tu gères tout : la prospection, les appels, le suivi, la livraison. Cette surcharge t'empêche de te concentrer sur ce qui apporte vraiment la baraka — ton expertise et ta valeur ajoutée.",
                 stat: "Tout repose sur tes épaules",
             },
         ],
@@ -202,51 +202,51 @@ export const siteConfig = {
         highlightedText: "Complet",
         headlineEnd: "à Ton Service",
         subtitle:
-            "Marketing, commercial, automatisation. On prend en charge chaque maillon de la chaîne.",
+            "Chaque brique est pensée pour scaler ton business sans compromettre tes valeurs. La niyah guide chaque décision.",
         items: [
             {
                 icon: "🌱",
                 title: "Acquisition Sans Publicité",
                 description:
-                    "Stratégies organiques (LinkedIn, contenu, partenariats, referrals) qui génèrent des clients sans dépenser un centime en pub.",
+                    "Stratégies basées sur la valeur réelle (LinkedIn, contenu, partenariats). On attire les bons clients par la sincérité, pas la manipulation.",
                 badge: "0€ de pub requis",
             },
             {
                 icon: "🎯",
                 title: "Publicité Ciblée & Éthique",
                 description:
-                    "Campagnes Facebook, Instagram et Google Ads pensées pour convertir sans manipuler.",
+                    "Campagnes publicitaires honnêtes : pas de fausses promesses, pas de clickbait. On montre ce que tu fais vraiment, et ça convertit.",
             },
             {
                 icon: "🖥️",
                 title: "Landing Pages Premium",
                 description:
-                    "Des pages de vente à fort taux de conversion, designées pour inspirer confiance.",
+                    "Des pages claires, honnêtes et professionnelles. Le visiteur ressent ta sincérité dès la première seconde.",
             },
             {
                 icon: "🎬",
                 title: "VSL & Contenu Vidéo",
                 description:
-                    "Scripts, production et montage de vidéos de vente qui éduquent ton audience.",
+                    "Des vidéos de vente qui éduquent et apportent de la valeur, pas de la manipulation émotionnelle.",
                 span: 2, // spans 2 columns on desktop
             },
             {
                 icon: "⚙️",
                 title: "Automatisation CRM",
                 description:
-                    "On met en place ton CRM, tes pipelines et tes automatisations.",
+                    "CRM, pipelines et relances automatisées. L'efficacité au service de la relation humaine, pas à sa place.",
             },
             {
                 icon: "📧",
                 title: "Séquences Email & Nurturing",
                 description:
-                    "Séquences automatisées qui convertissent les prospects froids en clients.",
+                    "Des séquences qui apportent de la valeur à chaque message. Le prospect se sent accompagné, pas harcelé.",
             },
             {
                 icon: "📞",
                 title: "Stratégie Commerciale & Closing",
                 description:
-                    "Closing, scripts d'appel, structuration de l'offre. De la prospection à la signature.",
+                    "Scripts d'appel basés sur l'écoute et la sincérité. On ne ferme que les deals où on peut réellement aider.",
                 badge: "100K+ CA généré",
                 span: 2,
             },
@@ -263,25 +263,25 @@ export const siteConfig = {
                 number: "01",
                 title: "Appel Diagnostic",
                 description:
-                    "On analyse ta situation actuelle, ton marché, tes objectifs. On identifie tes leviers de croissance.",
+                    "On commence par comprendre ta vision, tes valeurs et ta niyah. Pourquoi tu fais ce que tu fais ? C'est la fondation de tout le système.",
             },
             {
                 number: "02",
                 title: "Stratégie Sur Mesure",
                 description:
-                    "On conçoit un plan d'action complet adapté à ton business : canaux, messages, séquences, automations.",
+                    "On conçoit un plan d'action aligné avec ton éthique : canaux, messages, séquences — tout est pensé pour que tu puisses scaler sans compromis.",
             },
             {
                 number: "03",
                 title: "Déploiement & Optimisation",
                 description:
-                    "On lance, on mesure, on optimise. Tu te concentres sur ton expertise pendant qu'on gère l'acquisition.",
+                    "On lance avec tawakkul et on mesure avec rigueur. Les données guident les optimisations, la niyah guide la direction.",
             },
             {
                 number: "04",
                 title: "Scale & Croissance",
                 description:
-                    "Une fois le système validé, on accélère. Plus de clients, plus de CA, même effort.",
+                    "Une fois le système validé, on accélère. Plus de clients, plus d'impact, même éthique. La baraka se multiplie quand le fondement est sain.",
             },
         ],
     },
@@ -292,9 +292,9 @@ export const siteConfig = {
         headline: "On Préfère la",
         highlightedText: "Transparence",
         paragraphs: [
-            "On ne promet pas la lune. On ne travaille pas avec tout le monde. Et on refuse les projets où on sait qu'on ne pourra pas apporter de résultats.",
-            "Notre approche : des systèmes éthiques, des résultats mesurables, et une honnêteté totale. Si on pense ne pas être le bon fit pour toi, on te le dira dès le premier appel.",
-            "Chaque client est un partenaire. Ta réussite est notre réussite.",
+            "On ne travaille pas avec tout le monde. Et on refuse les projets où notre niyah ne serait pas alignée. Si on ne peut pas t'aider avec sincérité, on préfère te le dire.",
+            "Notre conviction : la baraka vient quand le travail est fait avec la bonne intention. Chaque système qu'on construit repose sur l'honnêteté, la transparence et le respect de tes valeurs.",
+            "Tu n'es pas un numéro de facture. Tu es un partenaire. Ta réussite est notre sadaqa jariya.",
         ],
         signature: null, // can be { name: "Ahmed", role: "Fondateur" }
     },
@@ -305,7 +305,7 @@ export const siteConfig = {
         headline: "Réserve Ton Appel de",
         highlightedText: "Candidature",
         subtitle:
-            "Cet appel de 45 minutes avec l'un de nos experts est une première étape pour comprendre ta situation.",
+            "45 minutes pour comprendre ta vision, ta niyah et identifier comment on peut t'aider à scaler éthiquement.",
         benefits: [
             "Analyse rapide de ta situation actuelle",
             "Identification de tes leviers de croissance",
@@ -374,15 +374,15 @@ export const siteConfig = {
         items: [
             {
                 q: "Combien coûte un accompagnement ?",
-                a: "Nos tarifs varient selon la complexité. On commence toujours par un appel gratuit de diagnostic. Ensuite, devis transparent, sans frais cachés.",
+                a: "Nos tarifs varient selon la complexité. On commence toujours par un appel gratuit. Ensuite, devis transparent, sans frais cachés. On ne vend jamais quelque chose dont tu n'as pas besoin.",
             },
             {
                 q: "En combien de temps je vais voir des résultats ?",
-                a: "En général, les premiers leads arrivent entre 7 et 21 jours après le lancement des campagnes.",
+                a: "Les premiers leads arrivent entre 7 et 21 jours. Mais les résultats durables viennent quand le système est construit sur de bonnes fondations.",
             },
             {
                 q: "Est-ce que vous travaillez avec tout le monde ?",
-                a: "Non. On sélectionne nos clients avec exigence. On ne prend que les projets où on est convaincus de pouvoir apporter des résultats.",
+                a: "Non. On ne prend que les projets où on est convaincus de pouvoir apporter de la valeur réelle. Si notre niyah n'est pas alignée, on passe.",
             },
             {
                 q: "Je ne suis pas à l'aise avec la technologie ?",
@@ -390,7 +390,7 @@ export const siteConfig = {
             },
             {
                 q: "Quelle est la différence avec une agence classique ?",
-                a: "Les agences vendent des clics. Nous, on construit un système complet qui te génère des clients réels.",
+                a: "Une agence vend des clics. Nous, on construit un système complet guidé par la niyah — pas juste du chiffre, mais de la baraka dans chaque partenariat.",
             },
             {
                 q: "L'appel de diagnostic est vraiment gratuit ?",
@@ -406,7 +406,7 @@ export const siteConfig = {
         highlightedText: "Une Décision",
         headlineEnd: "de Tout Faire Changer",
         subtitle:
-            "Chaque jour qui passe sans système, ce sont des clients que tu ne rencontres pas.",
+            "Chaque jour sans système, c'est de la baraka qui ne se manifeste pas. Passe à l'action avec la bonne intention.",
         ctas: [
             {
                 text: "Réserver Mon Appel avec un Expert",
@@ -427,7 +427,7 @@ export const siteConfig = {
     /* ─────────────────── FOOTER ─────────────────── */
     footer: {
         brand: "StarsBridgeSystem",
-        tagline: "Systèmes d'acquisition éthiques pour entrepreneurs ambitieux.",
+        tagline: "Systèmes d'acquisition bénis pour entrepreneurs sincères.",
         links: [
             { label: "Services", href: "#services" },
             { label: "Résultats", href: "#resultats" },
@@ -448,12 +448,12 @@ export const siteConfig = {
         headline: "Ton Appel Est",
         highlightedText: "Confirmé !",
         subtitle:
-            "On a hâte d'échanger avec toi. Tu vas recevoir un email de confirmation avec tous les détails.",
+            "On a hâte d'échanger avec toi. Bismillah, c'est une belle étape.",
         gift: {
             badge: "🎁 Cadeau Exclusif",
             title: "Rejoins le Réseau d'Affaires StarsBridgeSystem",
             description:
-                "Un groupe privé WhatsApp pour entrepreneurs ambitieux. Partage d'opportunités, conseils stratégiques et networking de qualité.",
+                "Un groupe WhatsApp pour entrepreneurs qui veulent scaler avec niyah et baraka. Entraide sincère, opportunités et rappels mutuels.",
             benefits: [
                 { icon: "🤝", label: "Networking qualifié" },
                 { icon: "💡", label: "Conseils exclusifs" },
