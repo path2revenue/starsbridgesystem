@@ -63,7 +63,7 @@ export const siteConfig = {
         highlightedText: "Marketing & Commercial",
         headlineEnd: "Pour Que Tu Signes Plus.",
         subheadline:
-            'Un <strong>système complet</strong>, construit sur la bonne intention, qui génère des clients <strong>de façon prévisible</strong> — avec baraka.',
+            'Un système complet, construit sur la bonne intention, qui génère des clients de façon prévisible, avec baraka.',
         vslUrl: "https://www.youtube.com/embed/tGQbEge5hCc?rel=0&modestbranding=1",
         vslTitle: "Présentation StarsBridgeSystem",
         ctas: [
@@ -117,21 +117,21 @@ export const siteConfig = {
                 icon: "📇",
                 title: "Tu distribues des cartes de visite en espérant un miracle",
                 description:
-                    "Tu comptes sur le bouche-à-oreille et tu espères que la baraka fera le reste. Certains mois tu signes, d'autres non. La niyah est là — mais sans système, le CA reste imprévisible.",
+                    "Tu comptes sur le bouche-à-oreille et tu espères que la baraka fera le reste. Certains mois tu signes, d'autres non. La niyah est là, mais sans système, le CA reste imprévisible.",
                 stat: "0 système = 0 prédictibilité",
             },
             {
                 icon: "💸",
                 title: "Tu dépenses en pub sans comprendre ce qui fonctionne",
                 description:
-                    "Tu as peut-être essayé Facebook Ads, un site à 30-40€/mois, ou même une agence. Résultat : de l'argent investi sans retour — et l'impression que le marketing éthique ne peut pas fonctionner.",
+                    "Tu as peut-être essayé Facebook Ads, un site à 30-40€/mois, ou même une agence. Résultat : de l'argent investi sans retour, et l'impression que le marketing éthique ne peut pas fonctionner.",
                 stat: "Budget perdu sans stratégie",
             },
             {
                 icon: "🏋️",
                 title: "Tu te bats seul, sans équipe ni système",
                 description:
-                    "Tu gères tout : la prospection, les appels, le suivi, la livraison. Cette surcharge t'empêche de te concentrer sur ce qui apporte vraiment la baraka — ton expertise et ta valeur ajoutée.",
+                    "Tu gères tout : la prospection, les appels, le suivi, la livraison. Cette surcharge t'empêche de te concentrer sur ce qui apporte vraiment la baraka, ton expertise et ta valeur ajoutée.",
                 stat: "Tout repose sur tes épaules",
             },
         ],
@@ -269,7 +269,7 @@ export const siteConfig = {
                 number: "02",
                 title: "Stratégie Sur Mesure",
                 description:
-                    "On conçoit un plan d'action aligné avec ton éthique : canaux, messages, séquences — tout est pensé pour que tu puisses scaler sans compromis.",
+                    "On conçoit un plan d'action aligné avec ton éthique : canaux, messages, séquences, tout est pensé pour que tu puisses scaler sans compromis.",
             },
             {
                 number: "03",
@@ -390,7 +390,7 @@ export const siteConfig = {
             },
             {
                 q: "Quelle est la différence avec une agence classique ?",
-                a: "Une agence vend des clics. Nous, on construit un système complet guidé par la niyah — pas juste du chiffre, mais de la baraka dans chaque partenariat.",
+                a: "Une agence vend des clics. Nous, on construit un système complet guidé par la niyah, pas juste du chiffre, mais de la baraka dans chaque partenariat.",
             },
             {
                 q: "L'appel de diagnostic est vraiment gratuit ?",
