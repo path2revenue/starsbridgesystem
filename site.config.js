@@ -312,8 +312,9 @@ export const siteConfig = {
             "Recommandations concrètes et actionnables",
             "On te dit honnêtement si on peut t'aider ou pas",
         ],
-        whatsappCopy: "Tu veux voir comment on fait ?",
-        whatsappLabel: "📊 Voir l'étude de cas (0 → +20K) →",
+        whatsappMention: "Je veux recevoir une étude de cas 0 à 20K gratuitement",
+        whatsappCopy: "Découvre comment on a aidé un entrepreneur à passer de 0 à +20K en 30 jours.",
+        whatsappLabel: "Rejoindre le groupe WhatsApp pour voir l'étude de cas",
     },
 
     /* ─────────────────── TESTIMONIALS ─────────────────── */

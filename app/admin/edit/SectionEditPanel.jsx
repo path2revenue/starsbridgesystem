@@ -177,6 +177,24 @@ function renderSectionFields(sectionKey, config, updateField) {
                         items={config.hero?.trustItems || []}
                         onUpdate={(v) => updateField("hero", "trustItems", v)}
                     />
+
+                    <SectionTitle>💬 WhatsApp CTA</SectionTitle>
+                    <div style={{ marginBottom: 12 }}>
+                        <label style={miniLabelStyle}>Texte mention (au-dessus du bouton)</label>
+                        <input
+                            value={(config.calendar || {}).whatsappMention ?? ""}
+                            onChange={(e) => updateField("calendar", "whatsappMention", e.target.value)}
+                            style={inputStyle}
+                        />
+                    </div>
+                    <div style={{ marginBottom: 12 }}>
+                        <label style={miniLabelStyle}>Texte bouton WhatsApp</label>
+                        <input
+                            value={(config.calendar || {}).whatsappLabel ?? ""}
+                            onChange={(e) => updateField("calendar", "whatsappLabel", e.target.value)}
+                            style={inputStyle}
+                        />
+                    </div>
                 </>
             );
 
@@ -340,6 +358,11 @@ function renderSectionFields(sectionKey, config, updateField) {
                         items={s.benefits || []}
                         onUpdate={(v) => updateField("calendar", "benefits", v)}
                     />
+
+                    <SectionTitle>💬 WhatsApp CTA</SectionTitle>
+                    {field("whatsappMention", "Texte mention (au-dessus du bouton)")}
+                    {field("whatsappCopy", "Description (sous la mention)", "textarea")}
+                    {field("whatsappLabel", "Texte bouton WhatsApp")}
                 </>
             );
 
@@ -394,6 +417,24 @@ function renderSectionFields(sectionKey, config, updateField) {
                     {field("subtitle", "Sous-titre", "textarea")}
                     {field("cta", "Texte bouton")}
                     {field("ctaLink", "Lien CTA")}
+
+                    <SectionTitle>💬 WhatsApp CTA</SectionTitle>
+                    <div style={{ marginBottom: 12 }}>
+                        <label style={miniLabelStyle}>Texte mention (au-dessus du bouton)</label>
+                        <input
+                            value={(config.calendar || {}).whatsappMention ?? ""}
+                            onChange={(e) => updateField("calendar", "whatsappMention", e.target.value)}
+                            style={inputStyle}
+                        />
+                    </div>
+                    <div style={{ marginBottom: 12 }}>
+                        <label style={miniLabelStyle}>Texte bouton WhatsApp</label>
+                        <input
+                            value={(config.calendar || {}).whatsappLabel ?? ""}
+                            onChange={(e) => updateField("calendar", "whatsappLabel", e.target.value)}
+                            style={inputStyle}
+                        />
+                    </div>
                 </>
             );
 
